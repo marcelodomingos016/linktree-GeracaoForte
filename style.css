@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html, body {
+     height: 100%;
+ }
+ 
+ body {
+     font-family: 'Raleway', sans-serif;
+     color: white;
+     background: black;
+ }
+ 
+ .avatar {
+     width: 140px;
+     border-radius: 70%;
+     border: 3px solid white;
+     box-shadow: 0 0 15px white;
+ }
+ 
+ h1 {
+   font-family: 'Architects Daughter', cursive;
+   font-weight: 100;
+   font-size: 24px;
+   margin-bottom: 2px;
+   margin-top: 5px;
+ }
+ 
+ h2 {
+     font-size: 16px;
+ }
+ 
+ .profile {
+     text-align: center;
+     margin-top: 15px;
+ }
+ 
+ .social {
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     margin: 20px 0;
+ }
+ 
+ .social img {
+     width: 33px;
+ }
+ 
+ .link-list {
+     list-style: none;
+ }
+ 
+ .link-list li {
+     margin: 10px 20px;
+     padding-bottom:10px;
+ }
+ 
+ .link-list li a {
+     display: block;
+     background: white;
+     padding: 15px 20px;
+     border-radius: 4px;
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     font-weight: bolder;
+     border: 3px solid white;
+     box-shadow: 0 0 8px white;
+ }
+ 
+ .link-list li a span{
+     color:black;
+     display: block;
+     margin-top: 10px;
+     font-weight: 100;
+ }
+ 
+ .footer{
+     margin-top: 10px;
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px 0;
+ }
+
+ .logo-ieq{
+     margin-bottom: 10px;
+     width: 150px;
+ }
